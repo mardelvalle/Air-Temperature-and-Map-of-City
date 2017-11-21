@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <h1> Search air information of major cities</h1>
+    <input id="latitude" type="text" placeholder="Major City">
+    <input id="longitude" type="text" placeholder="Full State Name">
+  </form>
+  <p id="airInfo"></p>
+<button id="getAirQualityInfo">Get Air Quality Info!</button>
+  <h2 id="epa"><h2>
+  <h3 id="mapin"></h3>
+  <div id="map">
+  </div>
+  <h5></h5>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3ZpLqYjRKgFNds7e0By2Dm9rMPNcHydM&callback=initMap"
+async defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
+
+</body>
+</html>
