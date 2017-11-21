@@ -13,9 +13,9 @@
         // marker.
         var latitude = $("#latitude").val();
         var longitude = $("#longitude").val();
-         var apiKey = "HgLQFEcsvMpw7BguE";
+         var apiKey = "";
          var apiURL = "http://api.airvisual.com/v2/city?city="+latitude+"&state="+longitude+"&country=USA&key="+apiKey;
-         var apiKey2 = "&APPID=59e6233e2d174304798d339e89523c0f";
+         var apiKey2 = "";
 //the & makes it a parementer that needs to go after the other parameters
 
           var apiURL2 = "http://api.openweathermap.org/data/2.5/weather?q="+latitude+","+longitude+apiKey2;
