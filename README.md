@@ -14,10 +14,4 @@ The api taken for air quality pulls the information from the two input fields to
 
 This was a good chance to see that some apis require information to be in the html file as well as in the Javascript. It was also an oprutnity to combine several other apis that I have worked on into one to get a more meaningful application.
 
-## Examples:
 
-Take a look at these couple examples that I have in my own portfolio:
-
-**Full Stack Board:** [a URL](https://github.com/mardelvalle/anime-social)
-
-**Wikipedia and New York Times Combination App:** [a URL](https://github.com/mardelvalle/wikipedia andnyt)
